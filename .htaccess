@@ -1,3 +1,2 @@
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www.carlos.io$ [NC]
-RewriteRule ^(.*)$ http://carlos.io/$1 [L,R=301]
+RewriteRule ^(.*)$ http://carlosbuenosvinos.github.com [L,R=301]
